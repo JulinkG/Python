@@ -6,7 +6,7 @@ class candidatos:
         conexion=mysql.connector.connect(host="127.0.0.1", 
                                               user="root", 
                                               passwd="JulinkR00t", 
-                                              database="Cartera1")
+                                              database="cartera1")
         return conexion
 
 
