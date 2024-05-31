@@ -1,6 +1,6 @@
 from random import choice
 
-palabras = ['panadero','dinosaurio','camaron','desastre','califragilistico','espiralidoso']
+palabras = ['panadero','dinosaurio','camaron','desastre','califragilistico','espiralidoso', 'futifantastico','estrategia','pachuco']
 letras_correctas = []
 letras_incorrectas = []
 vidas = 6
