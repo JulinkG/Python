@@ -1,6 +1,6 @@
 from random import choice
 
-palabras = ['panadero','dinosaurio','camaron','desastre','califragilistico','espiralidoso', 'futifantastico','estrategia','pachuco']
+palabras = ['dinosaurio','camaron','desastre','califragilistico','espiralidoso', 'futifantastico','estrategia','pachuco','valheim','jueguitos']
 letras_correctas = []
 letras_incorrectas = []
 vidas = 6
@@ -75,12 +75,12 @@ def ganar(palabra_descubierta):
 palabra, letras_unicas = elegir_palabra(palabras)
 
 while not juego_terminado:
-    print("\n" + "*" * 20 + "\n")
+    print("\n" + "*" * 19 + "\n")
     mostrar_nuevo_tablero(palabra)
     print("\n")
     print("Letras incorrectas: " + "-".join(letras_incorrectas))
     print(f"Vidas: {vidas}")
-    print("\n" + "*" * 20 + "\n")
+    print("\n" + "*" * 19 + "\n")
     letra = pedir_letra()
 
     vidas, terminado, aciertos = revisar_letra(letra, palabra, vidas, aciertos)
