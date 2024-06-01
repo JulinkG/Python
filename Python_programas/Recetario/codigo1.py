@@ -1,3 +1,5 @@
-archivo = open("prueba.txt")
+archivo = open('prueba.txt','a')
 
-print(archivo)
+archivo.write("Agregado")
+
+archivo.close()
