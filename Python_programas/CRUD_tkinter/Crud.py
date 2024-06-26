@@ -8,7 +8,7 @@ class InterfazCandidatos:
         self.master = master
         self.master.title("Gestión de Candidatos")
 
-        # Conectar a la base de datos SQLite (o crearla si no existe)
+        # Tenemos que conectar la base de datos o crearla en SQL, en este caso vamos a crearta desde cero
         self.conn = mysql.connector.connect(
         host='127.0.0.1',
         user='root',
